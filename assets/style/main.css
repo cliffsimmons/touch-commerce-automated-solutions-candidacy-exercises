@@ -1,0 +1,345 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14.5px;
+}
+
+body{
+}
+
+body div.clear{
+	clear: both;
+}
+
+body div.modal{
+	border-color: #B2B2B2;
+	border-style: solid;
+	border-radius: 15px 0px 0px 0px;
+	border-width: 1px;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	width: 298px;
+}
+
+body div.modal footer{
+	background-color: E5E5E5;
+	display: block;
+	overflow: hidden;
+	padding: 0px 0px 3px 0px;
+}
+
+body div.modal footer div.logo{
+	background-image: url( '../images/logo-tc.png' );
+	background-position: center center;
+	background-size: 94.5px 15px;
+	display: block;
+	height: 15px;
+	margin: 0px 0px 0px 5px;
+	overflow: hidden;
+	width: 95px;
+}
+
+body div.modal header{
+	display: block;
+	overflow: hidden;
+}
+
+body div.modal header div.background{
+	display: block;
+	overflow: hidden;
+}
+
+body div.modal header div.background div.motif{
+	background-color: #2D2D2D;
+	border-color: #C2E500;
+	border-style: solid;
+	border-width: 0px 0px 4px 0px;
+	display: block;
+	height: 40px;
+	overflow: hidden;
+}
+
+body div.modal header div.foreground{
+	display: block;
+	margin: -44px 0px 0px 0px;
+	overflow: hidden;
+}
+
+body div.modal header div.foreground div.icon.close{
+	background-image: url( '../images/btn-close.png' );
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	cursor: hand;
+	cursor: pointer;
+	display: block;
+	float: right;
+	height: 15px;
+	margin: 15px 15px 0px 0px;
+	width: 15px;
+}
+
+body div.modal header div.foreground div.logo{
+	background-image: url( '../images/logo-best-brands.png' );
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 102px 56px;
+	display: block;
+	float: left;
+	height: 56px;
+	margin: 4px 0px 0px 10px;
+	width: 102px;
+}
+
+body div.modal section{
+	display: block;
+	overflow: hidden;
+	padding: 0px 0px 40px 0px;
+}
+
+body div.modal section#for-pre-chat-survey{
+	height: 503px;
+}
+
+body div.modal section#for-pre-chat-survey h1{
+	margin-top: 9px;
+}
+
+body div.modal section a.button.back{
+	background-image: url( '../images/icon-back-button.png' );
+	background-position: 0px 2px;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	color: #8C8C8C;
+	cursor: hand;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-weight: bold;
+	margin: 35px 25px 0px 25px; 
+	padding: 4px 0px 4px 27px;
+}
+
+body div.modal section div.breadcrumbs{
+	color: #BFBFBF;
+	margin: 10px 25px 0px 25px; 
+}
+
+body div.modal section div.breadcrumbs a{
+	color: #7F9950;
+	cursor: hand;
+	cursor: pointer;
+}
+
+body div.modal section div.breadcrumbs span.separator{
+	color: #8E8E8E;
+}
+
+body div.modal section form{
+	margin: 16px 0px 0px 0px
+}
+
+body div.modal section form div.key{
+	color: #939393;
+	float: right;
+	font-size: 10px;
+	margin: 6px 25px 0px 0px;
+}
+
+body div.modal section form div.key span{
+	font-size: inherit;
+}
+
+body div.modal section form div.key span.color-red{
+	color: #997F7C;
+	color: #9E7478;
+}
+
+body div.modal section form label{
+	clear: both;
+	display: block;
+	float: left;
+	margin: 26px 25px 0px 25px;
+}
+
+body div.modal section form label:first-of-type{
+	margin-top: 0px;
+}
+
+body div.modal section form input{
+	padding: 7px 46px 9px 46px;
+}
+
+body div.modal section form input, body div.modal section form select, body div.modal section form textarea{
+	background-color: #FFFFFF;
+	background-position: 5px 6px;
+	background-repeat: no-repeat;
+	border-color: #E5E3E5;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	clear: both;
+	display: block;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 5px 0px 0px 25px;
+	outline: none;
+	width: 247px;
+	
+	-appeareance: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+body div.modal section form input.has-error{
+	background-color: #FFC6D6;
+	border-color: #9C4E44;
+}
+
+body div.modal section form input.has-error + span.error.icon{
+	display: block;
+}
+
+body div.modal section form input.has-error + span.error.icon + span.error.text{
+	display: block;
+}
+
+body div.modal section form input:focus, body div.modal section form select:focus, body div.modal section form textarea:focus{
+	background-color: #EFFBDA;
+}
+
+body div.modal section form input[name="full-name"]{
+	background-image: url( '../images/icon-form-avatar.png' );
+}
+
+body div.modal section form input[name="mobile-phone-number"]{
+	background-image: url( '../images/icon-form-phone.png' );
+}
+
+body div.modal section form input[type="submit"]{
+	background-image: url( '../images/btn-send-idle.png' );
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	border-radius: 5px;
+	border-style: none;
+	color: #FFFFFF;
+	cursor: hand;
+	cursor: pointer;
+	float: right;
+	margin: 25px 25px 0px 0px;
+	padding: 6px 24px 8px 24px;
+	text-shadow: 1px 1px rgba( 0, 0, 0, .25 );
+	width: auto;
+}
+
+body div.modal section form input[type="submit"]:hover{
+	background-image: url( '../images/btn-send-hover.png' );
+}
+
+body div.modal section form select{
+	background-position: 20px 237px;
+	background-image: url( '../images/icon-select-arrow.png' );
+	background-position: 232px 12px;
+	background-repeat: no-repeat;
+	background-size: 9px 8px;
+	height: 34px;
+	padding: 7px 16px 9px 16px;
+}
+
+body div.modal section form span.error.icon{
+	background-image: url('../images/icon-form-error.png');
+    background-size: 22px 20px;
+    display: none;
+    float: right;
+    height: 20px;
+    margin: -27px 34px 0px 0px;
+    position: relative;
+    width: 22px;
+}
+
+body div.modal section form span.error.text{
+	color: #9E7478;
+    display: none;
+    font-size: 10.8px;
+    position: relative;
+    float: right;
+    margin: 6px 25px -21px 0px;
+}
+
+body div.modal section form textarea{
+	height: 70px;
+	padding: 7px 16px 9px 16px;
+}
+
+
+
+body div.modal section h1{
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18.2px;
+	margin: 25px 25px 0px 25px; 
+}
+
+body div.modal section ul.topic-options{
+	display: block;
+	margin: 5px 0px 0px 0px;
+	overflow: hidden;
+}
+
+body div.modal section ul.topic-options li{
+	margin: 11px 0px 0px 0px;
+}
+
+body div.modal section ul.topic-options li a{
+	background-position: 25px 5px;
+	background-repeat: no-repeat;
+	color: #5E5E5E;
+	cursor: hand;
+	cursor: pointer;
+	display: block;
+	padding: 12px 0px 12px 0px;
+}
+
+body div.modal section ul.topic-options li a:hover{
+	background-color: #EDFBDB;
+	color: #7F9950;
+}
+
+body div.modal section ul.topic-options li a:active{
+	background-color: #99D100;
+	color: #FFFFFF;
+}
+
+body div.modal section ul.topic-options li a#account-login-support{
+	background-image: url( '../images/icon-login.png' );
+}
+
+body div.modal section ul.topic-options li a#billing-and-payments{
+	background-image: url( '../images/icon-billing.png' );
+}
+
+body div.modal section ul.topic-options li a#other{
+	background-image: url( '../images/icon-other.png' );
+}
+
+body div.modal section ul.topic-options li a#technical-support{
+	background-image: url( '../images/icon-tech-support.png' );
+}
+
+body div.modal section ul.topic-options li a span{
+	display: block;
+	margin: 0px 25px 0px 65px;
+}
