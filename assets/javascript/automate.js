@@ -140,6 +140,24 @@ if( typeof disallow_events == 'undefined' || !disallow_events ) {
 	};
 
 }
+
+else {
+	
+	var section_form = section_element_of_the_modal_element[0].getElementsByTagName( 'form' );
+	
+	if( section_form.length > 0 ) {
+	
+		section_form[0].onsubmit = function( e ){
+				
+			e.preventDefault;
+					
+			return false;
+					
+		};
+	
+	}
+	
+}
 	
 window.onresize = function(){
 	
